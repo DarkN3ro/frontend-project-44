@@ -12,10 +12,10 @@ if (randomNumbers % 2 === 0 && answer === 'yes') {
 } else if (randomNumbers % 2 !== 0 && answer === 'no') {
   console.log('Correct!');
 } else if (randomNumbers % 2 !== 0 && answer !== 'no') {
-  console.log(`'${answer}' is wrong answer ;(. Correct answer wes 'no'.\nLet's try again, ${userName}!`);
+  console.log(`'${answer}' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, ${userName}!`);
   process.exit();
 } else if (randomNumbers % 2 === 0 && answer !== 'yes') {
-  console.log(`'${answer}' is wrong answer ;(. Correct answer wes 'yes'.\nLet's try again, ${userName}!`);
+  console.log(`'${answer}' is wrong answer ;(. Correct answer was 'yes'.\nLet's try again, ${userName}!`);
   process.exit();
 }
 
@@ -26,10 +26,10 @@ if (randomNumbers2 % 2 === 0 && answer2 === 'yes') {
 } else if (randomNumbers2 % 2 !== 0 && answer2 === 'no') {
   console.log('Correct!');
 } else if (randomNumbers2 % 2 !== 0 && answer2 !== 'no') {
-  console.log(`'${answer2}' is wrong answer ;(. Correct answer wes 'no'.\nLet's try again, ${userName}!`);
+  console.log(`'${answer2}' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, ${userName}!`);
   process.exit();
 } else if (randomNumbers2 % 2 === 0 && answer2 !== 'yes') {
-  console.log(`'${answer2}' is wrong answer ;(. Correct answer wes 'yes'.\nLet's try again, ${userName}!`);
+  console.log(`'${answer2}' is wrong answer ;(. Correct answer was 'yes'.\nLet's try again, ${userName}!`);
   process.exit();
 }
 
@@ -40,10 +40,10 @@ if (randomNumbers3 % 2 === 0 && answer3 === 'yes') {
 } else if (randomNumbers3 % 2 !== 0 && answer3 === 'no') {
   console.log('Correct!');
 } else if (randomNumbers3 % 2 !== 0 && answer3 !== 'no') {
-  console.log(`'${answer3}' is wrong answer ;(. Correct answer wes 'no'.\nLet's try again, ${userName}!`);
+  console.log(`'${answer3}' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, ${userName}!`);
   process.exit();
 } else if (randomNumbers3 % 2 === 0 && answer3 !== 'yes') {
-  console.log(`'${answer3}' is wrong answer ;(. Correct answer wes 'yes'.\nLet's try again, ${userName}!`);
+  console.log(`'${answer3}' is wrong answer ;(. Correct answer was 'yes'.\nLet's try again, ${userName}!`);
   process.exit();
 }
 
