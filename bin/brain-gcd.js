@@ -2,6 +2,7 @@
 import readlineSync from 'readline-sync';
 import _ from 'lodash';
 import userName from '../src/cli.js';
+import { checkAnswer, checkDivider } from '../src/index.js';
 
 console.log('Find the greatest common divisor of given numbers.');
 
@@ -11,23 +12,8 @@ while (i < 3) {
   const numberTwo = _.random(1, 100);
   const answer = readlineSync.question(`Question: ${numberOne} ${numberTwo}  \nYour answer: `);
 
-  const resultOne = [];
-  for (let l = 1; l <= numberOne; l += 1) {
-    for (let j = 1; j <= numberOne; j += 1) {
-      if ((numberOne / l) === j) {
-        resultOne.push(l);
-      }
-    }
-  }
-
-  const resultTwo = [];
-  for (let x = 1; x <= numberTwo; x += 1) {
-    for (let y = 1; y <= numberTwo; y += 1) {
-      if ((numberTwo / x) === y) {
-        resultTwo.push(x);
-      }
-    }
-  }
+  const resultOne = checkDivider(numberOne);
+  const resultTwo = checkDivider(numberTwo);
 
   const sameNum = [];
   for (let m = 0; m < resultOne.length; m += 1) {
@@ -39,14 +25,9 @@ while (i < 3) {
   }
 
   const findMaxNum = Math.max(...sameNum);
-  const findMaxToStr = findMaxNum.toString();
+  const result = findMaxNum.toString();
 
-  if (findMaxToStr === answer) {
-    console.log('Correct!');
-  } else if (findMaxToStr !== answer) {
-    console.log(`'${answer}' is wrong answer ;(. Correct answer was '${findMaxToStr}'.\nLet's try again, ${userName}!`);
-    process.exit();
-  }
+  checkAnswer(result, answer, userName);
   i += 1;
 }
 

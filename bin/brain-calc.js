@@ -2,6 +2,7 @@
 import readlineSync from 'readline-sync';
 import _ from 'lodash';
 import userName from '../src/cli.js';
+import { checkAnswer } from '../src/index.js';
 
 console.log('What is the result of the expression?');
 
@@ -11,23 +12,19 @@ while (i < 3) {
   const numTwo = _.random(1, 30);
   const operations = ['-', '+', '*'];
   const random = _.sample(operations);
-  const sum = `${numOne} ${random} ${numTwo}`;
-  const answer = readlineSync.question(`Question: ${sum} \nYour answer: `);
-  let result;
+  const questionSum = `${numOne} ${random} ${numTwo}`;
+  const answer = readlineSync.question(`Question: ${questionSum} \nYour answer: `);
+  let sum;
   if (random === '*') {
-    result = numOne * numTwo;
+    sum = numOne * numTwo;
   } else if (random === '-') {
-    result = numOne - numTwo;
+    sum = numOne - numTwo;
   } else if (random === '+') {
-    result = numOne + numTwo;
+    sum = numOne + numTwo;
   }
-  const str = result.toString();
-  if (str === answer) {
-    console.log('Correct!');
-  } else if (result !== answer) {
-    console.log(`'${answer}' is wrong answer ;(. Correct answer was '${str}'.\nLet's try again, ${userName}!`);
-    process.exit();
-  }
+  const result = sum.toString();
+  checkAnswer(result, answer, userName);
+
   i += 1;
 }
 
