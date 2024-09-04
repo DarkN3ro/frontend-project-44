@@ -3,6 +3,10 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/3d70b94e89ecbac1c670/maintainability)](https://codeclimate.com/github/DarkN3ro/frontend-project-44/maintainability)
 
+## Description
+
+A set of mini-games "Brain Games".
+
 ## How to Setup
 
 1. Clone repository

@@ -12,15 +12,15 @@ export default () => {
     const numOne = _.random(1, 30);
     const numTwo = _.random(1, 30);
     const operations = ['-', '+', '*'];
-    const random = _.sample(operations);
-    const questionSum = `${numOne} ${random} ${numTwo}`;
+    const randomOperation = _.sample(operations);
+    const questionSum = `${numOne} ${randomOperation} ${numTwo}`;
     const answer = readlineSync.question(`Question: ${questionSum} \nYour answer: `);
     let sum;
-    if (random === '*') {
+    if (randomOperation === '*') {
       sum = numOne * numTwo;
-    } else if (random === '-') {
+    } else if (randomOperation === '-') {
       sum = numOne - numTwo;
-    } else if (random === '+') {
+    } else if (randomOperation === '+') {
       sum = numOne + numTwo;
     }
     const result = sum.toString();
