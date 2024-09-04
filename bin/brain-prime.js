@@ -4,6 +4,7 @@ import _ from 'lodash';
 import userName from '../src/cli.js';
 import { checkAnswer, checkPrime } from '../src/index.js';
 
+console.log(`Hello, ${userName}!`);
 console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
 
 let i = 0;

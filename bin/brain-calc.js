@@ -4,6 +4,7 @@ import _ from 'lodash';
 import userName from '../src/cli.js';
 import { checkAnswer } from '../src/index.js';
 
+console.log(`Hello, ${userName}!`);
 console.log('What is the result of the expression?');
 
 let i = 0;

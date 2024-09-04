@@ -3,6 +3,7 @@ import readlineSync from 'readline-sync';
 import _ from 'lodash';
 import userName from '../src/cli.js';
 
+console.log(`Hello, ${userName}!`);
 console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
 let i = 0;

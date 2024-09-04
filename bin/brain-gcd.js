@@ -4,6 +4,7 @@ import _ from 'lodash';
 import userName from '../src/cli.js';
 import { checkAnswer, checkDivider } from '../src/index.js';
 
+console.log(`Hello, ${userName}!`);
 console.log('Find the greatest common divisor of given numbers.');
 
 let i = 0;
