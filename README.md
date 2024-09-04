@@ -3,7 +3,7 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/3d70b94e89ecbac1c670/maintainability)](https://codeclimate.com/github/DarkN3ro/frontend-project-44/maintainability)
 
-## Setup
+## How to Setup
 
 1. Clone repository
 2. Go to the directory with the cloned repository
@@ -32,12 +32,19 @@ brain-prime
 ```
 - Number is prime : determine if this number is a prime number or not.
 
+## Demo Games
+
+- brain-even
 [![asciicast](https://asciinema.org/a/kn7BSd1CShuB8MjBbody61Szi.svg)](https://asciinema.org/a/kn7BSd1CShuB8MjBbody61Szi)
 
+- brain-calc
 [![asciicast](https://asciinema.org/a/0CoNBJZIWu51Omt3QUV26Z4i7.svg)](https://asciinema.org/a/0CoNBJZIWu51Omt3QUV26Z4i7)
 
+- brain-gcd
 [![asciicast](https://asciinema.org/a/aoPIsgYzxXBaONLCOwRCV0L0C.svg)](https://asciinema.org/a/aoPIsgYzxXBaONLCOwRCV0L0C)
 
+- brain-progression
 [![asciicast](https://asciinema.org/a/WupSgKqwGfyDmvNTWPIxCfFjJ.svg)](https://asciinema.org/a/WupSgKqwGfyDmvNTWPIxCfFjJ)
 
+- brain-prime
 [![asciicast](https://asciinema.org/a/nh3u8CpERyp472paldesWktYz.svg)](https://asciinema.org/a/nh3u8CpERyp472paldesWktYz)
