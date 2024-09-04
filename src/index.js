@@ -24,7 +24,7 @@ const checkPrime = (questionValue) => {
     return 'no';
   }
   let y = 2;
-  while (y < questionValue / 2) {
+  while (y < questionValue) {
     if ((questionValue % y) === 0) {
       return 'no';
     }

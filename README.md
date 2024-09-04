@@ -33,13 +33,22 @@ brain-prime
 - Number is prime : determine if this number is a prime number or not.
 
 ## Demo Games
+- brain-even
 
-[![asciicast](https://asciinema.org/a/kn7BSd1CShuB8MjBbody61Szi.svg)](https://asciinema.org/a/kn7BSd1CShuB8MjBbody61Szi)
+[![asciicast](https://asciinema.org/a/TOXHmZe1e3y7VZnN9qyRLAcOY.svg)](https://asciinema.org/a/TOXHmZe1e3y7VZnN9qyRLAcOY)
 
-[![asciicast](https://asciinema.org/a/0CoNBJZIWu51Omt3QUV26Z4i7.svg)](https://asciinema.org/a/0CoNBJZIWu51Omt3QUV26Z4i7)
+- brain-calc
 
-[![asciicast](https://asciinema.org/a/aoPIsgYzxXBaONLCOwRCV0L0C.svg)](https://asciinema.org/a/aoPIsgYzxXBaONLCOwRCV0L0C)
+[![asciicast](https://asciinema.org/a/31wrc87CEMsE97XhJmqkQ3mMH.svg)](https://asciinema.org/a/31wrc87CEMsE97XhJmqkQ3mMH)
 
-[![asciicast](https://asciinema.org/a/WupSgKqwGfyDmvNTWPIxCfFjJ.svg)](https://asciinema.org/a/WupSgKqwGfyDmvNTWPIxCfFjJ)
+- brain-gcd
 
-[![asciicast](https://asciinema.org/a/nh3u8CpERyp472paldesWktYz.svg)](https://asciinema.org/a/nh3u8CpERyp472paldesWktYz)
+[![asciicast](https://asciinema.org/a/Z83slaCTnMeDjfCwq0xgGpQvj.svg)](https://asciinema.org/a/Z83slaCTnMeDjfCwq0xgGpQvj)
+
+- brain-progression
+
+[![asciicast](https://asciinema.org/a/sT8A2NGP7KILHt4eXKXdWKk7C.svg)](https://asciinema.org/a/sT8A2NGP7KILHt4eXKXdWKk7C)
+
+- brain-prime
+
+[![asciicast](https://asciinema.org/a/NsghExav8ShKy7LUdFLWeQ7OA.svg)](https://asciinema.org/a/NsghExav8ShKy7LUdFLWeQ7OA)
