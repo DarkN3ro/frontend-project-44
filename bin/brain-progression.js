@@ -22,8 +22,8 @@ while (i < 3) {
   }
   const rigthAnswer = numbers[hide].toString();
   numbers[hide] = '..';
-  const question = numbers.join(' ');
-  const answer = readlineSync.question(`Question: ${question} \nYour answer: `);
+  const questionValue = numbers.join(' ');
+  const answer = readlineSync.question(`Question: ${questionValue} \nYour answer: `);
   const result = rigthAnswer;
 
   checkAnswer(result, answer, userName);

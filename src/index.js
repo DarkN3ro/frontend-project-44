@@ -19,4 +19,18 @@ const checkDivider = (number) => {
   return result;
 };
 
-export { checkAnswer, checkDivider };
+const checkPrime = (questionValue) => {
+  if (questionValue <= 1) {
+    return 'no';
+  }
+  let y = 2;
+  while (y < questionValue / 2) {
+    if ((questionValue % y) === 0) {
+      return 'no';
+    }
+    y += 1;
+  }
+  return 'yes';
+};
+
+export { checkAnswer, checkDivider, checkPrime };
