@@ -5,26 +5,32 @@
 
 ## Setup
 
-```bash
 1. Clone repository
 2. Go to the directory with the cloned repository
-3. Run the command 'make install'
-```
+3. Run the command "make install"
 
 ## Run Brain Games
 
 ```bash
 brain-even
-- Paricy check : determine if this number is even or not.
-brain-calc
-- Calculator : calculate the result of a random arithmetic operation.
-brain-gcd
-- The largest common divisor : determine the largest common divisor of two numbers.
-brain-progression
-- Arithmetic progression : identify the missing progression value.
-brain-prime
-- Number is prime : determine if this number is a prime number or not.
 ```
+- Paricy check : determine if this number is even or not.
+```bash
+brain-calc
+```
+- Calculator : calculate the result of a random arithmetic operation.
+```bash
+brain-gcd
+```
+- The largest common divisor : determine the largest common divisor of two numbers.
+```bash
+brain-progression
+```
+- Arithmetic progression : identify the missing progression value.
+```bash
+brain-prime
+```
+- Number is prime : determine if this number is a prime number or not.
 
 [![asciicast](https://asciinema.org/a/kn7BSd1CShuB8MjBbody61Szi.svg)](https://asciinema.org/a/kn7BSd1CShuB8MjBbody61Szi)
 
