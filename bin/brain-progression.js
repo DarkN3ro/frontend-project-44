@@ -15,7 +15,6 @@ while (i < 3) {
   for (let x = 1; x <= 10; x += 1) {
     maxNum += skip;
   }
-  console.log(maxNum);
 
   const numbers = [];
   for (let j = num; j < maxNum; j += skip) {
