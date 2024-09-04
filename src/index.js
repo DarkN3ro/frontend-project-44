@@ -10,10 +10,8 @@ const checkAnswer = (result, answer, userName) => {
 const checkDivider = (number) => {
   const result = [];
   for (let a = 1; a <= number; a += 1) {
-    for (let b = 1; b <= number; b += 1) {
-      if ((number / a) === b) {
-        result.push(a);
-      }
+    if ((number % a) === 0) {
+      result.push(a);
     }
   }
   return result;

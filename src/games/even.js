@@ -1,6 +1,7 @@
 import readlineSync from 'readline-sync';
 import _ from 'lodash';
 import userName from '../cli.js';
+import { checkAnswer } from '../index.js';
 
 export default () => {
   console.log(`Hello, ${userName}!`);
@@ -8,19 +9,16 @@ export default () => {
 
   let i = 0;
   while (i < 3) {
+    const checkEvenNum = (randomNumbers) => {
+      if (randomNumbers % 2 === 0) {
+        return 'yes';
+      }
+      return 'no';
+    };
     const randomNumbers = _.random(1, 20);
     const answer = readlineSync.question(`Question: ${randomNumbers} \nYour answer: `);
-    if (randomNumbers % 2 === 0 && answer === 'yes') {
-      console.log('Correct!');
-    } else if (randomNumbers % 2 !== 0 && answer === 'no') {
-      console.log('Correct!');
-    } else if (randomNumbers % 2 !== 0 && answer !== 'no') {
-      console.log(`'${answer}' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, ${userName}!`);
-      process.exit();
-    } else if (randomNumbers % 2 === 0 && answer !== 'yes') {
-      console.log(`'${answer}' is wrong answer ;(. Correct answer was 'yes'.\nLet's try again, ${userName}!`);
-      process.exit();
-    }
+    const result = checkEvenNum(randomNumbers);
+    checkAnswer(result, answer, userName);
     i += 1;
   }
 

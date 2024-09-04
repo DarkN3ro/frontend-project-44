@@ -31,6 +31,5 @@ export default () => {
     checkAnswer(result, answer, userName);
     i += 1;
   }
-
   console.log(`Congratulations, ${userName}!`);
 };
