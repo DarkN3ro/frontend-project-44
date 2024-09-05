@@ -1,10 +1,9 @@
 import readlineSync from 'readline-sync';
 import _ from 'lodash';
-import userName from '../cli.js';
-import { checkAnswer, checkDivider } from '../index.js';
+import greeting, { checkAnswer, checkDivider } from '../index.js';
 
 export default () => {
-  console.log(`Hello, ${userName}!`);
+  const userName = greeting();
   console.log('Find the greatest common divisor of given numbers.');
 
   let i = 0;

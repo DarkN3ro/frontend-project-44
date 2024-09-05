@@ -1,10 +1,9 @@
 import readlineSync from 'readline-sync';
 import _ from 'lodash';
-import userName from '../cli.js';
-import { checkAnswer, checkPrime } from '../index.js';
+import greeting, { checkAnswer, checkPrime } from '../index.js';
 
 export default () => {
-  console.log(`Hello, ${userName}!`);
+  const userName = greeting();
   console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
 
   let i = 0;

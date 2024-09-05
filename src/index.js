@@ -1,11 +1,4 @@
-const checkAnswer = (result, answer, userName) => {
-  if (result === answer) {
-    console.log('Correct!');
-  } else if (result !== answer) {
-    console.log(`'${answer}' is wrong answer ;(. Correct answer was '${result}'.\nLet's try again, ${userName}!`);
-    process.exit();
-  }
-};
+import readlineSync from 'readline-sync';
 
 const checkDivider = (number) => {
   const result = [];
@@ -29,6 +22,21 @@ const checkPrime = (questionValue) => {
     y += 1;
   }
   return 'yes';
+};
+export default () => {
+  console.log('Welcome to the Brain Games!');
+  const userName = readlineSync.question('May I have your name? ');
+  console.log(`Hello, ${userName}!`);
+  return userName;
+};
+
+const checkAnswer = (result, answer, userName) => {
+  if (result === answer) {
+    console.log('Correct!');
+  } else if (result !== answer) {
+    console.log(`'${answer}' is wrong answer ;(. Correct answer was '${result}'.\nLet's try again, ${userName}!`);
+    process.exit();
+  }
 };
 
 export { checkAnswer, checkDivider, checkPrime };

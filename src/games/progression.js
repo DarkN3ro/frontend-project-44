@@ -1,10 +1,9 @@
 import readlineSync from 'readline-sync';
 import _ from 'lodash';
-import userName from '../cli.js';
-import { checkAnswer } from '../index.js';
+import greeting, { checkAnswer } from '../index.js';
 
 export default () => {
-  console.log(`Hello, ${userName}!`);
+  const userName = greeting();
   console.log('What number is missing in the progression?');
 
   let i = 0;
