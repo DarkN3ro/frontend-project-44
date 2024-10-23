@@ -39,20 +39,20 @@ brain-prime
 ## Demo Games
 - brain-even
 
-[![asciicast](https://asciinema.org/a/TOXHmZe1e3y7VZnN9qyRLAcOY.svg)](https://asciinema.org/a/TOXHmZe1e3y7VZnN9qyRLAcOY)
+[![asciicast](https://asciinema.org/a/682991.svg)](https://asciinema.org/a/682991)
 
 - brain-calc
 
-[![asciicast](https://asciinema.org/a/31wrc87CEMsE97XhJmqkQ3mMH.svg)](https://asciinema.org/a/31wrc87CEMsE97XhJmqkQ3mMH)
+[![asciicast](https://asciinema.org/a/682990.svg)](https://asciinema.org/a/682990)
 
 - brain-gcd
 
-[![asciicast](https://asciinema.org/a/Z83slaCTnMeDjfCwq0xgGpQvj.svg)](https://asciinema.org/a/Z83slaCTnMeDjfCwq0xgGpQvj)
+[![asciicast](https://asciinema.org/a/682992.svg)](https://asciinema.org/a/682992)
 
 - brain-progression
 
-[![asciicast](https://asciinema.org/a/sT8A2NGP7KILHt4eXKXdWKk7C.svg)](https://asciinema.org/a/sT8A2NGP7KILHt4eXKXdWKk7C)
+[![asciicast](https://asciinema.org/a/682994.svg)](https://asciinema.org/a/682994)
 
 - brain-prime
 
-[![asciicast](https://asciinema.org/a/NsghExav8ShKy7LUdFLWeQ7OA.svg)](https://asciinema.org/a/NsghExav8ShKy7LUdFLWeQ7OA)
+[![asciicast](https://asciinema.org/a/682993.svg)](https://asciinema.org/a/682993)
